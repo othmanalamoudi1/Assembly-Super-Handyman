@@ -1,0 +1,185 @@
+/* ====== GLOBAL STYLES ====== */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #074a36;
+}
+
+a {
+    color: #228B22;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ====== HEADER & NAVIGATION ====== */
+header {
+    background-color: #074a36;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ====== HERO SECTION ====== */
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.hero h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+/* ====== GOOGLE REVIEWS SECTION ====== */
+.reviews {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e8f5e9;
+}
+
+.review-btn {
+    display: inline-block;
+    background-color: #228B22;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.review-btn:hover {
+    background-color: #1a6620;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #074a36;
+    color: #fff;
+}
+
+/* ====== SERVICES PAGE ====== */
+main ul {
+    list-style: disc;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main ul li {
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+/* ====== CONTACT PAGE ====== */
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #228B22;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #1a6620;
+}
+
+/* ====== PRICING TABLE (from your code) ====== */
+.pricing-section {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+.pricing-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.pricing-table th,
+.pricing-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.pricing-table th {
+    background-color: #074a36;
+    color: white;
+}
+
+.pricing-category {
+    background-color: #2b6754;
+    font-weight: bold;
+    color: white;
+}
+
+.note {
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+}
+
+.small-text {
+    font-size: 0.8em;
+    color: #777;
+}
